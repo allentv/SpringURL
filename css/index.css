@@ -1,0 +1,23 @@
+/*** Common styling for the application ***/
+body
+{
+	background-color: #dddddd;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+
+/*** Element specific styling ***/
+
+/* Style of body tag */
+.BodyContent
+{
+	margin-top: 30px;
+}
+
+.ShortLinkDetailsSection
+{
+	background-color: #FFFFFF;
+}

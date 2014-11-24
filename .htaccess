@@ -1,0 +1,8 @@
+RewriteEngine On
+# Sample Link : localhost/springurl/123A
+#RewriteRule ^([a-zA-Z0-9_-]+)$ pages/ShowSpringURL.php?id=$1
+# Sample Link : localhost/springurl/userID/123A
+#RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ pages/ShowSpringURL.php?id=$1
+
+# Adding CORS support
+Header set Access-Control-Allow-Origin "*"
